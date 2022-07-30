@@ -1,5 +1,7 @@
 package com.hspedu.encap;
 
+import java.util.Scanner;
+
 public class Encapsulation {
     public static void main(String[] args) {
         Person person = new Person();
@@ -17,6 +19,7 @@ class Person {
     public String name;
     private int age;
     private double salary;
+
 
     public Person() {
     }
